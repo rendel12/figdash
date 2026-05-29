@@ -3,9 +3,9 @@
  * CSS border-style:dashed가 Figma 디자인과 다를 때
  * SVG + pseudo element 방식으로 dashed border를 정확하게 구현하는 플러그인
  *
- * GitHub  : https://github.com/유저명/figdash
- * CDN CSS : https://cdn.jsdelivr.net/gh/유저명/figdash@latest/dashedBorder.css
- * CDN JS  : https://cdn.jsdelivr.net/gh/유저명/figdash@latest/dashedBorder.js
+ * GitHub  : https://github.com/rendel12/figdash
+ * CDN CSS : https://cdn.jsdelivr.net/gh/rendel12/figdash@latest/dashedBorder.css
+ * CDN JS  : https://cdn.jsdelivr.net/gh/rendel12/figdash@latest/dashedBorder.js
  *
  * -------------------------------------------------------
  * [사전 준비] dashedBorder.css를 함께 include
