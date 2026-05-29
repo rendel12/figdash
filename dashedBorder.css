@@ -1,0 +1,27 @@
+/*!
+ * figdash - dashedBorder.css v2.0
+ * https://github.com/유저명/figdash
+ */
+
+[data-dashed] { position: relative; }
+
+[data-dashed]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background-image: var(--dashed-border-svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+[data-dashed] > * {
+    position: relative;
+    z-index: 1;
+}
+/*
+    내부에 swiper / canvas / 직접 z-index 설계가 있는 경우
+    위 [data-dashed] > * 규칙을 제거하고 해당 요소에 z-index 직접 지정하세요.
+*/
