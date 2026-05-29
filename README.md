@@ -1,2 +1,3 @@
-# figdash
-Accurate Figma-style dashed borders using SVG backgrounds.
+# Figdash
+
+Accurate Figma-style dashed borders using SVG and pseudo elements.
